@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#12181a">
+    <meta name="description" content="KocurMeow - mnaukaci prehravac pre kazdu platformu.">
+    <title>KocurMeow</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="assets/images/icon-192.png">
+    <link rel="apple-touch-icon" href="assets/images/icon-192.png">
+    <link rel="preload" href="assets/images/kocur.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell" aria-labelledby="app-title">
+      <section class="hero">
+        <p class="eyebrow">Kocur audio system</p>
+        <h1 id="app-title">KocurMeow</h1>
+      </section>
+
+      <section class="player" aria-label="Mnaukaci prehravac">
+        <div class="cat-stage" aria-live="polite">
+          <img class="cat-photo" src="assets/images/kocur.png" alt="Kocur pripraveny mnaukat">
+          <div class="status" id="status">Pripraveny na mnaukanie</div>
+        </div>
+
+        <div class="meow-grid" aria-label="Tlacidla mnaukania">
+          <button class="meow-button" data-meow="1" type="button"><span>Meow 1</span></button>
+          <button class="meow-button" data-meow="2" type="button"><span>Meow 2</span></button>
+          <button class="meow-button" data-meow="3" type="button"><span>Meow 3</span></button>
+          <button class="meow-button" data-meow="4" type="button"><span>Meow 4</span></button>
+          <button class="meow-button" data-meow="5" type="button"><span>Meow 5</span></button>
+          <button class="meow-button" data-meow="6" type="button"><span>Meow 6</span></button>
+          <button class="meow-button" data-meow="7" type="button"><span>Meow 7</span></button>
+          <button class="meow-button" data-meow="8" type="button"><span>Meow 8</span></button>
+          <button class="meow-button" data-meow="9" type="button"><span>Meow 9</span></button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
